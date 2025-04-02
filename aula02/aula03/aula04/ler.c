@@ -6,12 +6,20 @@ int main(){
     scanf("%c", &tecla); // tecla = 'a';
     getchar(); // ler o // n da leitura anterior
 
-    printf(" voce precionou a tecla %c\n", tecla);
+    printf(" voce pressionou a tecla %c\n", tecla);
 
-    printf("precionou outra tecla e dpois aperte enter:  ");
+    printf("pressione outra tecla e dpois aperte enter:  ");
     scanf("%c", &tecla); // tecla = 'a';
+    getchar();
+    printf(" voce pressionou a tecla %c\n", tecla);
 
-    printf(" voce precionou a tecla %c\n", tecla);
+    
+    char nome[31];
+    printf("entre com, seu nome: ");
+    scanf("%[^\n]s" , nome);
+    printf("vc digitou %s\n" , nome);
 
     return 0;
+
+
 }
