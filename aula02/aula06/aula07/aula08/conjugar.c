@@ -22,7 +22,7 @@ int main(){
     int penultima_posicao = ultima_posicao - 1;
 
     if(verbo[ultima_posicao] == 'R' && verbo[penultima_posicao] == 'A'){
-        printf("Conjucao do verbo %s no presente do indicativo\n", verbo);
+        printf("Conjucao do verbo %s no presente do indicativo\n", verbo         );
         char radical[21];
         strcpy(radical, verbo); // radical = verbo 
         radical[penultima_posicao] = '\0';
