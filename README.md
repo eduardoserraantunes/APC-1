@@ -12,18 +12,18 @@ Este repositório está organizado da seguinte forma:
 
 Aqui estão alguns comandos básicos do shell no Linux que podem ser úteis ao utilizar o git-bash.
 
-- Listagem de Arquivos e Pastas
+1. Listagem de Arquivos e Pastas
 ```shell
 ls      # Lista arquivos e pastas da pasta atual
 ls -l   # Lista detalhadamente com informações adicionais
 ```
-- Acesso a Pastas
+2. Acesso a Pastas
 ```shell
 cd nome_da_pasta    # Acessa a pasta especificada
 cd ..               # Volta uma pasta (subir um nível)
 cd ~                # Volta diretamente para a pasta home
 ```
-- Executar um Programa Local
+3. Executar um Programa Local
 ```shell
 ./nome_do_programa  # Executa um programa da pasta atual
 ```
@@ -41,9 +41,10 @@ cd aula01
 ```
 2. Compile o Programa
 ```shell
-gcc nome_do_arquivo.c -lm
+gcc nome_do_arquivo.c -lm -o a.out
 ```
 3. Execute o Programa Compilado
 ```shell
-./a.exe
+./a.out
 ```
+
