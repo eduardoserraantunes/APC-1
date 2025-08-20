@@ -48,3 +48,4 @@ gcc nome_do_arquivo.c -lm -o a.out
 ./a.out
 ```
 
+ 
